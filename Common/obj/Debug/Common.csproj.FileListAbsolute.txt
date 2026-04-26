@@ -9,3 +9,9 @@ C:\Users\djuka\OneDrive\Desktop\aus_template\Common\obj\Debug\Common.csproj.Asse
 C:\Users\djuka\OneDrive\Desktop\aus_template\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\djuka\OneDrive\Desktop\aus_template\Common\obj\Debug\Common.dll
 C:\Users\djuka\OneDrive\Desktop\aus_template\Common\obj\Debug\Common.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\bin\Debug\Common.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\bin\Debug\Common.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\obj\Debug\Common.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Common\obj\Debug\Common.pdb

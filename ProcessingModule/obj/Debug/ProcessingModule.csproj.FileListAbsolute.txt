@@ -15,3 +15,12 @@ C:\Users\djuka\OneDrive\Desktop\aus_template\ProcessingModule\obj\Debug\Processi
 C:\Users\djuka\OneDrive\Desktop\aus_template\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
 C:\Users\djuka\OneDrive\Desktop\aus_template\ProcessingModule\obj\Debug\ProcessingModule.dll
 C:\Users\djuka\OneDrive\Desktop\aus_template\ProcessingModule\obj\Debug\ProcessingModule.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\bin\Debug\ProcessingModule.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\bin\Debug\ProcessingModule.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\bin\Debug\Common.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\bin\Debug\Common.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\obj\Debug\ProcessingModule.csproj.AssemblyReference.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\obj\Debug\ProcessingModule.csproj.CoreCompileInputs.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\obj\Debug\ProcessingModule.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\ProcessingModule\obj\Debug\ProcessingModule.pdb

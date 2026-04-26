@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\djuka\\OneDrive\\Desktop\\aus_template\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|c:\\users\\djuka\\source\\repos\\aus_projekat_g6_n_pr93_2023_1211\\processingmodule\\acquisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\acquisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|c:\\users\\djuka\\source\\repos\\aus_projekat_g6_n_pr93_2023_1211\\modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|c:\\users\\djuka\\source\\repos\\aus_projekat_g6_n_pr93_2023_1211\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RtuCfg.txt",
+              "DocumentMoniker": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\dCom\\RtuCfg.txt",
+              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
+              "ToolTip": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\dCom\\RtuCfg.txt",
+              "RelativeToolTip": "dCom\\RtuCfg.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-26T14:29:45.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Acquisitor.cs",
+              "DocumentMoniker": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\ProcessingModule\\Acquisitor.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\Acquisitor.cs",
+              "ToolTip": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\ProcessingModule\\Acquisitor.cs",
+              "RelativeToolTip": "ProcessingModule\\Acquisitor.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:28:17.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WriteSingleRegisterFunction.cs",
+              "DocumentMoniker": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ToolTip": "C:\\Users\\djuka\\source\\repos\\AUS_Projekat_G6_N_PR93_2023_1211\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:13:53.099Z",
+              "EditorCaption": ""
             }
           ]
         }

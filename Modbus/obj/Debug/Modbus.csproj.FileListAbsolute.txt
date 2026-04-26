@@ -7,3 +7,12 @@ C:\Users\djuka\OneDrive\Desktop\aus_template\Modbus\obj\Debug\Modbus.csproj.Core
 C:\Users\djuka\OneDrive\Desktop\aus_template\Modbus\obj\Debug\Modbus.csproj.Up2Date
 C:\Users\djuka\OneDrive\Desktop\aus_template\Modbus\obj\Debug\Modbus.dll
 C:\Users\djuka\OneDrive\Desktop\aus_template\Modbus\obj\Debug\Modbus.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\bin\Debug\Modbus.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\bin\Debug\Modbus.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\bin\Debug\Common.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\bin\Debug\Common.pdb
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\obj\Debug\Modbus.csproj.AssemblyReference.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\obj\Debug\Modbus.csproj.Up2Date
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\obj\Debug\Modbus.dll
+C:\Users\djuka\source\repos\AUS_Projekat_G6_N_PR93_2023_1211\Modbus\obj\Debug\Modbus.pdb
