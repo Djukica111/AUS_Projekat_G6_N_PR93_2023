@@ -1,0 +1,9 @@
+STA 43
+TCP 61676
+
+
+DO_REG  1 4400  0  0      1     0  DO  @STOP
+DO_REG  1 4402  0  0      1     0  DO  @VentilV1
+DO_REG  2 4405  0  0      1     0  DO  @P
+IN_REG  1 4100  0  0   4095  2000  AI  @L
+HR_INT  1  500  0  0   4095  1200  AO  @N1
