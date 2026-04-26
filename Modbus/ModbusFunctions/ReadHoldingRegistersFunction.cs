@@ -24,15 +24,42 @@ namespace Modbus.ModbusFunctions
         /// <inheritdoc />
         public override byte[] PackRequest()
         {
-            //TO DO: IMPLEMENT
-            throw new NotImplementedException();
+            ModbusReadCommandParameters parameters = this.CommandParameters as ModbusReadCommandParameters;
+            byte[] request = new byte[12];
+
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)parameters.TransactionId)), 0, request, 0, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)parameters.ProtocolId)), 0, request, 2, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)parameters.Length)), 0, request, 4, 2);
+            request[6] = parameters.UnitId;
+
+            request[7] = parameters.FunctionCode;
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)parameters.StartAddress)), 0, request, 8, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)parameters.Quantity)), 0, request, 10, 2);
+
+            return request;
         }
 
-        /// <inheritdoc />
         public override Dictionary<Tuple<PointType, ushort>, ushort> ParseResponse(byte[] response)
         {
-            //TO DO: IMPLEMENT
-            throw new NotImplementedException();
+            Dictionary<Tuple<PointType, ushort>, ushort> dict = new Dictionary<Tuple<PointType, ushort>, ushort>();
+            ModbusReadCommandParameters parameters = this.CommandParameters as ModbusReadCommandParameters;
+
+            if ((response[7] & 0x80) != 0)
+            {
+                HandeException(response[8]);
+            }
+            else
+            {
+                ushort quantity = parameters.Quantity;
+                for (int i = 0; i < quantity; i++)
+                {
+                    ushort value = (ushort)IPAddress.NetworkToHostOrder((short)BitConverter.ToUInt16(response, 9 + i * 2));
+                    ushort address = (ushort)(parameters.StartAddress + i);
+                    dict.Add(new Tuple<PointType, ushort>(PointType.ANALOG_OUTPUT, address), value);
+                }
+            }
+
+            return dict;
         }
     }
 }
